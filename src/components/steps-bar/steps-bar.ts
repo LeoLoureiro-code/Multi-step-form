@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-steps-bar',
+  selector: 'steps-bar',
   imports: [],
   templateUrl: './steps-bar.html',
   styleUrl: './steps-bar.css',
