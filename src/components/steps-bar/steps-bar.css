@@ -1,0 +1,12 @@
+.steps_div{
+    background-image: url('../../../public/assets/images/bg-sidebar-mobile.svg');
+    height: 10.75rem;
+    padding: 2rem 4rem;
+}
+
+.steps_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
