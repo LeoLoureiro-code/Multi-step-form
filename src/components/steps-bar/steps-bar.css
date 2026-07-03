@@ -15,5 +15,24 @@
 }
 
 .steps_item{
-    
+    height: 35px;
+    width: 35px;
+    border: 1px solid var(--background-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--background-color);
+}
+
+.steps_item_active{
+    height: 35px;
+    width: 35px;
+    background-color: var(--complete-color);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
