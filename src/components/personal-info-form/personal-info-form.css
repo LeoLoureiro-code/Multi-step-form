@@ -1,0 +1,30 @@
+.personal_info_div{
+    top: 80px;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-color-form);
+    width: 90%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: -80px;
+}
+
+.personal_info_title{
+    font-size: 1.7rem;
+}
+
+.personal_info_paragraph{
+    font-size: 1.1rem;
+}
+
+.personal_info_form{
+    margin-top: 2rem;
+}
+
+.personal_info_form_div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
