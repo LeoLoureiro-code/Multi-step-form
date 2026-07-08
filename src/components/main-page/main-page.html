@@ -1,8 +1,17 @@
 <div class="container">
     <steps-bar></steps-bar>
-    <personal-info-form></personal-info-form>
+    @switch (step) {
+        @case (1) {<personal-info-form></personal-info-form>}
+        @case (2) {<select-plan></select-plan>}
+        @case (3) {<add-on></add-on>}
+        @case (4) {<confirmation></confirmation>}
+        @case (5) {<final-message></final-message>}
+    }
+    
     <div class="options-div">
+        @if(step > 1){
+            <go-back-button></go-back-button>
+        }
         <next-button></next-button>
-        <go-back-button></go-back-button>
     </div>
 </div>
