@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'go-back-button',
@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class GoBackButton {
 
+  @Output()
+  GoBack = new EventEmitter<void>();
 }
