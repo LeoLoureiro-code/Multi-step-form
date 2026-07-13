@@ -10,8 +10,8 @@
     
     <div class="options-div">
         @if(step > 1){
-            <go-back-button></go-back-button>
+            <go-back-button (PreviousStep)="PreviousStep()"></go-back-button>
         }
-        <next-button></next-button>
+        <next-button (NextStep)="NextStep()"></next-button>
     </div>
 </div>
