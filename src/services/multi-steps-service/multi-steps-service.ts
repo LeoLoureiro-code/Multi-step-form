@@ -14,7 +14,7 @@ export class MultiStepsService {
   }
 
   PreviousStep(){
-    if(this.step >= 5){
+    if(this.step > 1){
       this.step --;
     }
   }
