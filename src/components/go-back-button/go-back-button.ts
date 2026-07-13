@@ -9,5 +9,5 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class GoBackButton {
 
   @Output()
-  GoBack = new EventEmitter<void>();
+  PreviousStep = new EventEmitter<void>();
 }
