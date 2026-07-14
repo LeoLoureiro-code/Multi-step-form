@@ -1,0 +1,11 @@
+button{
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--text-color);
+    color: var(--background-color-form);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
