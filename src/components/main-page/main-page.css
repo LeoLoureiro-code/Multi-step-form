@@ -1,7 +1,25 @@
 .container{
+    height: 43.4rem;
 }
 
 .options-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media (min-width: 786px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 15rem 1fr;
+        padding: 1.5rem;
+        background-color: var(--background-color-form);
+        height: 37.5;
+    }
+
+    .step-bar-div{
+        height: 100%;
+    }
 }
