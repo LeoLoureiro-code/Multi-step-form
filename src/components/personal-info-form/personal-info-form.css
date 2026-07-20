@@ -16,7 +16,21 @@
 }
 
 .personal_info_paragraph{
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--text-secondary-color);
+}
+
+label{
+    margin-bottom: 0.5rem;
+}
+
+input{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: 0.5px solid var(--text-secondary-color);
+    font-size: 1.05rem;
 }
 
 .personal_info_form{
@@ -27,4 +41,11 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1.5rem;
+}
+
+@media(min-width: 786px){
+    .personal_info_div{
+  
+        margin-top: 0
+    }
 }
