@@ -1,5 +1,6 @@
 .container{
     height: 43.4rem;
+    max-width: 58.75rem;
 }
 
 .options-div{
@@ -21,5 +22,15 @@
 
     .step-bar-div{
         height: 100%;
+
+    }
+
+    .step-div{
+        position: relative;
+    }
+
+    .options-div{
+        position: absolute;
+        bottom: 0;
     }
 }
